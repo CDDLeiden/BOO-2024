@@ -4,7 +4,7 @@
 
 Create notebook for docking to A2B inactive structure
 Subsections:
-1. Retrieve structure (from GPCRdb) + prepapre protein (from CBR tutorial 01)
+1. Retrieve structure (from GPCRdb) + prepapre protein (from CBR tutorial 01) COMPLETED 2023-05-17 WJ
 2. Prepare ligand (contact Martin for conformer prediction)
 3. Section to dock A2B reference compounds (from CBR tutorial 03)
 4. Section to dock selected compounds (from CBR tutorial 03)
