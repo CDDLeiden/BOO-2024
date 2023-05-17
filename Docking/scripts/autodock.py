@@ -1,4 +1,5 @@
 from math import isnan, isinf
+from rdkit import Chem
 
 def PDBQTAtomLines(mol, donors, acceptors):
     """Create a list with PDBQT atom lines for each atom in molecule. Donors
