@@ -1,4 +1,4 @@
-# BOO 2023
+# BOO 2024
 
 In this short guide, we will introduce the Noteable environment and show how to install the [QSPRpred](https://github.com/CDDLeiden/QSPRPred) package.
 
@@ -114,6 +114,7 @@ You can browse the [source code of QSPRpred on GitHub](https://github.com/CDDLei
 git clone -b v2.0.0.dev1 https://github.com/CDDLeiden/QSPRPred.git ~/software/QSPRPred
 ```
 
+We are sticking to the v2.0.0 version as it is the most stable at the moment.
 However, before we navigate to the tutorial directory, we need to link the `qsprpred` environment to JupyterLab. We can do this by installing the `ipykernel` from this environment to our home directory:
 
 ```bash
