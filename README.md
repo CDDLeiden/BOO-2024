@@ -111,10 +111,10 @@ python -c "import qsprpred; print(qsprpred.__version__)" # execute Python code f
 You can browse the [source code of QSPRpred on GitHub](https://github.com/CDDLeiden/QSPRPred/tree/v2.0.0.dev1/) and the [tutorial code](https://github.com/CDDLeiden/QSPRPred/tree/v2.0.0.dev1/tutorial) is there as well. You can browse the notebooks in this directory, but you cannot run or edit them on GitHub. That is why we need to create our own copy of the code. We can do this by cloning the repository:
 
 ```bash
-git clone -b v2.0.0.dev1 https://github.com/CDDLeiden/QSPRPred.git ~/software/QSPRPred
+git clone -b v3.0.0.dev1 https://github.com/CDDLeiden/QSPRPred.git ~/software/QSPRPred
 ```
 
-We are sticking to the v2.0.0 version as it is the most stable at the moment.
+We are sticking to the v3.0.0 version as it is the most stable at the moment.
 However, before we navigate to the tutorial directory, we need to link the `qsprpred` environment to JupyterLab. We can do this by installing the `ipykernel` from this environment to our home directory:
 
 ```bash
