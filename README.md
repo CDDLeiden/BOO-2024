@@ -97,7 +97,7 @@ htop
 Pretty neat, right? You can exit the program with the `q` key. Let's install the QSPRpred package now:
 
 ```bash
-pip install git+https://github.com/CDDLeiden/QSPRPred.git@v2.0.0.dev1 # installs a version of the code by specifying the tag (v2.0.0.dev1)
+pip install git+https://github.com/CDDLeiden/QSPRPred.git@v3.0.2.main # installs a version of the code by specifying the tag (v3.0.2.main)
 ```
 
 This will use the pip installer to fetch a version of the QSPRpred package from GitHub and install it in your environment. You can check by importing the package in Python:
@@ -108,10 +108,10 @@ python -c "import qsprpred; print(qsprpred.__version__)" # execute Python code f
 
 ## Running the QSPRpred Tutorial
 
-You can browse the [source code of QSPRpred on GitHub](https://github.com/CDDLeiden/QSPRPred/tree/v2.0.0.dev1/) and the [tutorial code](https://github.com/CDDLeiden/QSPRPred/tree/v2.0.0.dev1/tutorial) is there as well. You can browse the notebooks in this directory, but you cannot run or edit them on GitHub. That is why we need to create our own copy of the code. We can do this by cloning the repository:
+You can browse the [source code of QSPRpred on GitHub](https://github.com/CDDLeiden/QSPRpred) and the [tutorial code](https://github.com/CDDLeiden/QSPRpred/tree/main/tutorials) is there as well. You can browse the notebooks in this directory, but you cannot run or edit them on GitHub. That is why we need to create our own copy of the code. We can do this by cloning the repository:
 
 ```bash
-git clone -b v3.0.0.dev1 https://github.com/CDDLeiden/QSPRPred.git ~/software/QSPRPred
+git clone -b v3.0.2.main https://github.com/CDDLeiden/QSPRPred.git ~/software/QSPRPred
 ```
 
 We are sticking to the v3.0.0 version as it is the most stable at the moment.
