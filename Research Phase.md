@@ -98,6 +98,11 @@ Preparing a virtual screening dataset can often take long, as having to calculat
 if there are many compounds available. Once your dataset is prepared in the same way as your previous dataset, the next step
 is to simply predict the bio-activities of the virtual screening compounds.
 
+For this research, a small virtual set has been composed. The virtual screening set is obtained using NextMove Software’s SmallWorld,
+a tool for performing similarity-based queries of compounds based on chemical modifications. The obtained dataset consists
+of an extensive series of compounds that are analogous to actives for targets investigated in the BOO 2024 projects. The
+13470 compounds in the dataset are commercially available through two different chemical vendors, Enamine and eMolecules.
+
 ### Quality Assessment
 Predicting the bioactivity is only one part of the virtual screen; assessing which compounds to pick for further investigation
 is just as important. The simplest way to do this is to rank the predicted compounds based on bioactivity; higher scoring 
@@ -127,5 +132,5 @@ on the availability of 3D structures.
 - Proteochemometrics: This research is performed on only a single protein, however these proteins are often in a family of 
 similar(-ish) proteins. Combining information from this entire family (or even more) can often result in an increase of 
 both prediction power, and insights gained.
-- Deep Learning: The presented regressor works well and quick, but many newer techniques use the power of reinforcement
+- Deep Learning (not feasible in Noteable): The presented regressor works well and quick, but many newer techniques use the power of reinforcement
 training to find deeper relations and increase predictive power; though often at the cost of time and computational power.
